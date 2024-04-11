@@ -7,20 +7,21 @@ database = dbclient[DB_NAME]
 user_data = database['users']
 
 default_verify = {
-    'is_verified': False,
-    'verified_time': 0,
-    'verify_token': "",
-    'link': ""
+    'is_verified': True,
+    'verified_time': 86400,
+    'verify_token': "1707b92dd5cbe9ca4cb8f522607e20191edb1ca1",
+    'link': "adrinolinks.in"
 }
 
 def new_user(id):
     return {
         '_id': id,
         'verify_status': {
-            'is_verified': False,
-            'verified_time': "",
-            'verify_token': "",
-            'link': ""
+            'is_verified': True,
+            'verified_time': "86400",
+            'verify_token': "1707b92dd5cbe9ca4cb8f522607e20191edb1ca1
+",
+            'link': "adrinolinks.in"
         }
     }
 
