@@ -32,8 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "bcec9915423f7ab7e42e36e9c95a9bb3d22c132d
-")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bcec9915423f7ab7e42e36e9c95a9bb3d22c132d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/HOW2UDOWNLOAD/2")
